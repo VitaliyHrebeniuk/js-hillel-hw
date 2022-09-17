@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <p>Select figure!</p>
+        <select id="figure" onchange="figure()">
+            <option></option>
+            <option value="cube">cube</option>
+            <option value="rectangle">rectangle</option>
+            <option value="circle">circle</option>
+        </select>
+    <div id="demo"></div>
+    <p>Choice Color!</p>
+    <input id="color" type="text" placeholder="write your color"/>
+    <div>
+        <button id="choiceColor">Choice</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#rectangleDiv{
+    margin: 10px;
+    width:200px;
+    height:100px;
+    background-color: black;
+}
+#cubeDiv{
+    margin: 10px;
+    width:100px;
+    height:100px;
+    background-color: black;
+}
+#circleDiv{
+    margin: 10px;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: black;
+}
