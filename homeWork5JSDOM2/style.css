@@ -1,16 +1,16 @@
-#rectangleDiv{
+#rectangle{
     margin: 10px;
     width:200px;
     height:100px;
     background-color: black;
 }
-#cubeDiv{
+#cube{
     margin: 10px;
     width:100px;
     height:100px;
     background-color: black;
 }
-#circleDiv{
+#circle{
     margin: 10px;
     width:100px;
     height:100px;
