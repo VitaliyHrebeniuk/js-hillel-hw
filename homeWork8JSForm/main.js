@@ -11,9 +11,16 @@ login.addEventListener('change', () =>{
 });
 
 pswd.addEventListener('change', () =>{
-    if (/^[a-z0-9#$]{2,15}$/.test(pswd.value)===false){
+    if (/(?=.*[#$])(^[a-z0-9#$]{2,15})/.test(pswd.value)===false){
         pswd.classList.add('red')
     }else{
         pswd.classList.remove('red')
     }
 });
+
+submit.addEventListener('click', (event) =>{
+    event.preventDefault();
+    if(/[0-9a-zA-z]{2,15}/.test(login.value)===true && /(?=.*[#$])(^[a-z0-9#$]{2,15})/.test(pswd.value)===true){
+        console.log(`login:${login.value} pswd:${pswd.value}`)
+    }
+})
